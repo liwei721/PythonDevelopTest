@@ -60,8 +60,7 @@ def play_top_video():
 
         # 5.1 在播放页面找到播放按钮
         play_btn = chrome_driver_wait.until(EC.element_to_be_clickable((By.CLASS_NAME, "bilibili-player-video-state")))
-        # chrome_driver.execute_script("arguments[0].click();", play_btn)
-        play_btn.click()
+        chrome_driver.execute_script("arguments[0].click();", play_btn)
 
         # 6. 为了播放效果，延迟10s钟关闭。
         time.sleep(10)
