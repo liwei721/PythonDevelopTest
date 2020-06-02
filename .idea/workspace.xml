@@ -2,6 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c269642-7066-462c-9419-3ea0718395f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pythontestpractice/01python_basic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythontestpractice/01python_basic/helloworld.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythontestpractice/01python_basic/test_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythontestpractice/01python_basic/test_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythontestpractice/01python_basic/test_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythontestpractice/02modules/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythontestpractice/02modules/moduleA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythontestpractice/02modules/moduleB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythontestpractice/02modules/module_os.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythontestpractice/02modules/module_re.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythontestpractice/06selenium_pageobject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythontestpractice/06selenium_pageobject/bussiness/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythontestpractice/06selenium_pageobject/bussiness/home_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythontestpractice/06selenium_pageobject/bussiness/search_result_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythontestpractice/06selenium_pageobject/page/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythontestpractice/06selenium_pageobject/page/base_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythontestpractice/06selenium_pageobject/page/home_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythontestpractice/06selenium_pageobject/page/search_result_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythontestpractice/06selenium_pageobject/testcase/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythontestpractice/06selenium_pageobject/testcase/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythontestpractice/06selenium_pageobject/testcase/test_homepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonTestPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonTestPractice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pythontestpractice/06selenium/05play_most_viewed_python_course.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythontestpractice/06selenium/05play_most_viewed_python_course.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,10 +51,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="E:/mxj/devicemanager" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/codespace/PythonModuleAndRegular" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
   </component>
-  <component name="RunManager" selected="Python.05play_most_viewed_python_course (1)">
-    <configuration name="03locate_element" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="PythonTestPractice" is-module-sdk="true" working-directory="$PROJECT_DIR$/pythontestpractice/06selenium_pageobject">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="PythonTestPractice" />
+        <option name="myWorkingDirectory" value="$PROJECT_DIR$/pythontestpractice/06selenium_pageobject" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.module_os">
+    <configuration name="moduleB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTestPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -39,11 +72,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythontestpractice/06selenium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythontestpractice/02modules" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\codespace\python\PythonTestPractice\pythontestpractice\06selenium\03locate_element.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythontestpractice/02modules/moduleB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -52,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04wait_element" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="module_os" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTestPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,11 +93,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythontestpractice/06selenium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythontestpractice/02modules" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythontestpractice/06selenium/04wait_element.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythontestpractice/02modules/module_os.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05play_most_viewed_python_course (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="module_re" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTestPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +114,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythontestpractice/06selenium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythontestpractice/02modules" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythontestpractice/06selenium/05play_most_viewed_python_course.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythontestpractice/02modules/module_re.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05play_most_viewed_python_course" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTestPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,11 +135,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythontestpractice/06selenium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythontestpractice/01python_basic" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\codespace\python\PythonTestPractice\pythontestpractice\06selenium\05play_most_viewed_python_course.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythontestpractice/01python_basic/test_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonTestPractice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythontestpractice/01python_basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythontestpractice/01python_basic/test_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,10 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.05play_most_viewed_python_course (1)" />
-        <item itemvalue="Python.05play_most_viewed_python_course" />
-        <item itemvalue="Python.04wait_element" />
-        <item itemvalue="Python.03locate_element" />
+        <item itemvalue="Python.module_os" />
+        <item itemvalue="Python.module_re" />
+        <item itemvalue="Python.moduleB" />
+        <item itemvalue="Python.test_data" />
+        <item itemvalue="Python.test_process" />
       </list>
     </recent_temporary>
   </component>
@@ -150,25 +205,116 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1585043215794">
+    <state x="524" y="114" key="#xdebugger.evaluate" timestamp="1585664836111">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585043215794" />
-    <state width="1515" height="105" key="GridCell.Tab.0.bottom" timestamp="1585103104358">
+    <state x="524" y="114" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1585664836111" />
+    <state x="2306" y="381" key="FileChooserDialogImpl" timestamp="1590706669352">
+      <screen x="1920" y="0" width="1080" height="1880" />
+    </state>
+    <state x="2306" y="381" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1080.1880@1920.0.1080.1880" timestamp="1590706669352" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585238825338" />
+    <state width="1515" height="282" key="GridCell.Tab.0.bottom" timestamp="1591137904237">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="105" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585103104358" />
-    <state width="1515" height="105" key="GridCell.Tab.0.center" timestamp="1585103104358">
+    <state width="1515" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1080.1880@0.0.1536.824" timestamp="1591137904237" />
+    <state width="1059" height="484" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1080.1880@1920.0.1080.1880" timestamp="1591134941630" />
+    <state width="1515" height="179" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586150430399" />
+    <state width="1515" height="282" key="GridCell.Tab.0.center" timestamp="1591137904237">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="105" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585103104358" />
-    <state width="1515" height="105" key="GridCell.Tab.0.left" timestamp="1585103104358">
+    <state width="1515" height="282" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1080.1880@0.0.1536.824" timestamp="1591137904237" />
+    <state width="1059" height="484" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1080.1880@1920.0.1080.1880" timestamp="1591134941630" />
+    <state width="1515" height="179" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586150430399" />
+    <state width="1515" height="282" key="GridCell.Tab.0.left" timestamp="1591137904237">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="105" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585103104358" />
-    <state width="1515" height="105" key="GridCell.Tab.0.right" timestamp="1585103104358">
+    <state width="1515" height="282" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1080.1880@0.0.1536.824" timestamp="1591137904237" />
+    <state width="1059" height="484" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1080.1880@1920.0.1080.1880" timestamp="1591134941629" />
+    <state width="1515" height="179" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586150430399" />
+    <state width="1515" height="282" key="GridCell.Tab.0.right" timestamp="1591137904237">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="105" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585103104358" />
+    <state width="1515" height="282" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1080.1880@0.0.1536.824" timestamp="1591137904237" />
+    <state width="1059" height="484" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1080.1880@1920.0.1080.1880" timestamp="1591134941630" />
+    <state width="1515" height="179" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586150430399" />
+    <state width="1059" height="2" key="GridCell.Tab.1.bottom" timestamp="1589105040700">
+      <screen x="1920" y="0" width="1080" height="1880" />
+    </state>
+    <state width="1059" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1080.1880@1920.0.1080.1880" timestamp="1589105040700" />
+    <state width="1515" height="179" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586150430400" />
+    <state width="1059" height="2" key="GridCell.Tab.1.center" timestamp="1589105040699">
+      <screen x="1920" y="0" width="1080" height="1880" />
+    </state>
+    <state width="1059" height="2" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1080.1880@1920.0.1080.1880" timestamp="1589105040699" />
+    <state width="1515" height="179" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586150430399" />
+    <state width="1059" height="2" key="GridCell.Tab.1.left" timestamp="1589105040699">
+      <screen x="1920" y="0" width="1080" height="1880" />
+    </state>
+    <state width="1059" height="2" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1080.1880@1920.0.1080.1880" timestamp="1589105040699" />
+    <state width="1515" height="179" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586150430399" />
+    <state width="1059" height="2" key="GridCell.Tab.1.right" timestamp="1589105040700">
+      <screen x="1920" y="0" width="1080" height="1880" />
+    </state>
+    <state width="1059" height="2" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1080.1880@1920.0.1080.1880" timestamp="1589105040700" />
+    <state width="1515" height="179" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586150430399" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1585238828213">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585238828213" />
+    <state x="490" y="154" width="561" height="524" key="StructurePopup" timestamp="1585238066187">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="154" width="561" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1585238066187" />
+    <state x="447" y="11" width="642" height="801" key="find.popup" timestamp="1585401586422">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="11" width="642" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1585401586422" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pythontestpractice/06selenium/05play_most_viewed_python_course.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pythontestpractice/06selenium/05play_most_viewed_python_course.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pythontestpractice/06selenium/05play_most_viewed_python_course.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pythontestpractice/06selenium/05play_most_viewed_python_course.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/pypoetry/Cache/virtualenvs/pythontestpractice-V_7kWAkN-py3.8/Lib/site-packages/selenium/webdriver/remote/webdriver.py</url>
+          <line>133</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/pypoetry/Cache/virtualenvs/pythontestpractice-V_7kWAkN-py3.8/Lib/site-packages/selenium/webdriver/remote/webdriver.py</url>
+          <line>241</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/pypoetry/Cache/virtualenvs/pythontestpractice-V_7kWAkN-py3.8/Lib/site-packages/selenium/webdriver/remote/webdriver.py</url>
+          <line>311</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/pypoetry/Cache/virtualenvs/pythontestpractice-V_7kWAkN-py3.8/Lib/site-packages/selenium/webdriver/remote/remote_connection.py</url>
+          <line>366</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

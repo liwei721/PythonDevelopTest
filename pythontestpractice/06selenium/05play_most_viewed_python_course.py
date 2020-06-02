@@ -9,15 +9,26 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import selenium.webdriver.support.expected_conditions as EC
 import time
+import logging
+
+logging.basicConfig(level=logging.NOTSET)
 
 
 def play_top_video():
     """
       点击播放B站上播放量最高的视频
     """
-    chrome_driver = webdriver.Chrome()
+    # chrome_driver = webdriver.Chrome()
+    capabilities = DesiredCapabilities.CHROME.copy()
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument("--no-sandbox")
+    chrome_driver = webdriver.Remote(command_executor="http://192.168.31.38:4444/wd/hub",
+                                     desired_capabilities=capabilities,
+                                     options=chrome_options)
     # 访问b站
     chrome_driver.get("https://www.bilibili.com/")
 
@@ -64,6 +75,9 @@ def play_top_video():
 
         # 6. 为了播放效果，延迟10s钟关闭。
         time.sleep(10)
+
+        # 关闭所有窗口
+        chrome_driver.quit()
     except NoSuchElementException as no_element_exec:
         print(no_element_exec)
         chrome_driver.quit()
