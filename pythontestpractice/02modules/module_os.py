@@ -118,5 +118,6 @@ def test_system():
     print(os.uname())
     print(os.environ())
 
+
 if __name__ == '__main__':
     test_system()
