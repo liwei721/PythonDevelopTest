@@ -110,13 +110,19 @@ def test_system():
     对系统操作进行验证
     :return:
     """
+    # 执行切换目录的命令。
     s_result = os.system("cd testA")
     print(s_result)
-    p_result = os.popen("ping www.baidu.com")
+    # 打印三次ping命令。
+    p_result = os.popen("ping -c 3 www.baidu.com")
     print(p_result.read())
+    # 获取当前进程的id
     print(os.getpid())
+    # 获取系统的名称，注意在windows上不起作用，会报错。
     print(os.uname())
-    print(os.environ())
+    # 打印系统环境变量，在windows上同样可能不起作用。
+    print(os.environ)
+
 
 if __name__ == '__main__':
     test_system()
