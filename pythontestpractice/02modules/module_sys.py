@@ -1,5 +1,6 @@
 """
     @author: xuanke
+<<<<<<< HEAD
     @time: 2020/5/28
     @function: sys 模块
 """
@@ -30,6 +31,17 @@ def test_static():
     # 获取Python解释器的版本信息
     print(sys.implementation)
 
+
+def test_std_method():
+    """
+    对输入输出进行验证
+    :return:
+    """
+    sys.stdout.write("test python")
+    print("please input something")
+    input_str = sys.stdin.readline()
+    print(input_str)
+    sys.stderr.write("throw error")
 
 if __name__ == '__main__':
     test_static()
