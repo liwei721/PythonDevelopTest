@@ -49,17 +49,5 @@ def test_operate_folder():
     print(return_value)
 
 
-def test_archive_folder():
-    """
-    对文件进行归档和解包
-    :return:
-    """
-    # 压缩
-    file_name = shutil.make_archive("test", "zip", base_dir=".")
-    print(file_name)
-    # 解压
-    shutil.unpack_archive("test.zip", "mytest", "zip")
-
-
 if __name__ == '__main__':
-    test_archive_folder()
+    test_operate_folder()

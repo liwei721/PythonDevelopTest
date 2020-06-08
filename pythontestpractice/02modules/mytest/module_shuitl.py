@@ -58,7 +58,8 @@ def test_archive_folder():
     file_name = shutil.make_archive("test", "zip", base_dir=".")
     print(file_name)
     # 解压
-    shutil.unpack_archive("test.zip", "mytest", "zip")
+    shutil.unpack_archive("test.zip",  "mytest", "zip")
+
 
 
 if __name__ == '__main__':
