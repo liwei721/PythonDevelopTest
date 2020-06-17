@@ -1,0 +1,12 @@
+test_add (pythontestpractice.unittest03.unittest_demo.UnitTestCase) ... ok
+test_add_2 (pythontestpractice.unittest03.unittest_demo.UnitTestCase) ... ok
+test_div (pythontestpractice.unittest03.unittest_demo.UnitTestCase) ... ok
+test_div_2 (pythontestpractice.unittest03.unittest_demo.UnitTestCase) ... skipped 'ÔÝÊ±²»Ö´ÐÐ'
+test_div_3 (pythontestpractice.unittest03.unittest_demo.UnitTestCase) ... expected failure
+test_add (pythontestpractice.unittest03.unittest_demo1.UnitTestCase1) ... ok
+test_div (pythontestpractice.unittest03.unittest_demo1.UnitTestCase1) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.002s
+
+OK (skipped=1, expected failures=1)

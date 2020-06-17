@@ -1,0 +1,48 @@
+2020-06-16 16:44:03,850   29044     INFO test_runner.py(154) - 预计并发线程数：1
+2020-06-16 16:44:03,855   29320     INFO result.py(65) - 开始测试： test_add (pythontestpractice.unittest03.unittest_demo.UnitTestCase)
+2020-06-16 16:44:03,856   29320     INFO result.py(152) - 测试执行通过： test_add (pythontestpractice.unittest03.unittest_demo.UnitTestCase)
+2020-06-16 16:44:03,856   29320     INFO result.py(86) - 测试结束： test_add (pythontestpractice.unittest03.unittest_demo.UnitTestCase)
+2020-06-16 16:44:03,856   29320     INFO result.py(87) - 耗时： 0.0009598731994628906
+2020-06-16 16:44:03,857   29320     INFO result.py(65) - 开始测试： test_add_2 (pythontestpractice.unittest03.unittest_demo.UnitTestCase)
+2020-06-16 16:44:03,858   29320     INFO result.py(152) - 测试执行通过： test_add_2 (pythontestpractice.unittest03.unittest_demo.UnitTestCase)
+2020-06-16 16:44:03,858   29320     INFO result.py(86) - 测试结束： test_add_2 (pythontestpractice.unittest03.unittest_demo.UnitTestCase)
+2020-06-16 16:44:03,858   29320     INFO result.py(87) - 耗时： 0.0
+2020-06-16 16:44:03,858   29320     INFO result.py(65) - 开始测试： test_div (pythontestpractice.unittest03.unittest_demo.UnitTestCase)
+2020-06-16 16:44:03,858   29320     INFO result.py(152) - 测试执行通过： test_div (pythontestpractice.unittest03.unittest_demo.UnitTestCase)
+2020-06-16 16:44:03,859   29320     INFO result.py(86) - 测试结束： test_div (pythontestpractice.unittest03.unittest_demo.UnitTestCase)
+2020-06-16 16:44:03,859   29320     INFO result.py(87) - 耗时： 0.0009932518005371094
+2020-06-16 16:44:03,859   29320     INFO result.py(65) - 开始测试： test_div_2 (pythontestpractice.unittest03.unittest_demo.UnitTestCase)
+2020-06-16 16:44:03,859   29320     INFO result.py(138) - 跳过测试： test_div_2 (pythontestpractice.unittest03.unittest_demo.UnitTestCase)
+暂时不执行
+2020-06-16 16:44:03,859   29320     INFO result.py(86) - 测试结束： test_div_2 (pythontestpractice.unittest03.unittest_demo.UnitTestCase)
+2020-06-16 16:44:03,859   29320     INFO result.py(87) - 耗时： 0.0
+2020-06-16 16:44:03,859   29320     INFO result.py(65) - 开始测试： test_div_3 (pythontestpractice.unittest03.unittest_demo.UnitTestCase)
+2020-06-16 16:44:03,860   29320     INFO result.py(86) - 测试结束： test_div_3 (pythontestpractice.unittest03.unittest_demo.UnitTestCase)
+2020-06-16 16:44:03,860   29320     INFO result.py(87) - 耗时： 0.0
+2020-06-16 16:44:03,861   29320     INFO result.py(65) - 开始测试： test_add (pythontestpractice.unittest03.unittest_demo1.UnitTestCase1)
+2020-06-16 16:44:03,861   29320     INFO result.py(152) - 测试执行通过： test_add (pythontestpractice.unittest03.unittest_demo1.UnitTestCase1)
+2020-06-16 16:44:03,861   29320     INFO result.py(86) - 测试结束： test_add (pythontestpractice.unittest03.unittest_demo1.UnitTestCase1)
+2020-06-16 16:44:03,862   29320     INFO result.py(87) - 耗时： 0.0
+2020-06-16 16:44:03,862   29320     INFO result.py(65) - 开始测试： test_div (pythontestpractice.unittest03.unittest_demo1.UnitTestCase1)
+2020-06-16 16:44:03,862   29320     INFO result.py(152) - 测试执行通过： test_div (pythontestpractice.unittest03.unittest_demo1.UnitTestCase1)
+2020-06-16 16:44:03,862   29320     INFO result.py(86) - 测试结束： test_div (pythontestpractice.unittest03.unittest_demo1.UnitTestCase1)
+2020-06-16 16:44:03,862   29320     INFO result.py(87) - 耗时： 0.0
+2020-06-16 16:44:03,863   29044     INFO test_runner.py(191) - 
+Pass	test_add (pythontestpractice.unittest03.unittest_demo.UnitTestCase)
+Pass	test_add_2 (pythontestpractice.unittest03.unittest_demo.UnitTestCase)
+Pass	test_div (pythontestpractice.unittest03.unittest_demo.UnitTestCase)
+Pass	test_add (pythontestpractice.unittest03.unittest_demo1.UnitTestCase1)
+Pass	test_div (pythontestpractice.unittest03.unittest_demo1.UnitTestCase1)
+
+2020-06-16 16:44:03,864   29044    ERROR test_runner.py(193) - 
+Skip	test_div_2 (pythontestpractice.unittest03.unittest_demo.UnitTestCase)
+
+2020-06-16 16:44:03,894   29044     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:00.563508
+共计执行用例数量：6
+执行成功用例数量：5
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
