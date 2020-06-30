@@ -14,5 +14,6 @@ def test_get_joke_info():
     resp = requests.get(url, headers=header)
     status_code = resp.status_code
     resp_body = resp.json()
-    print(status_code)
-    print(resp_body)
+    assert status_code == 200
+    assert resp_body['code'] == 200
+    assert len(resp_body['result']) == 1
