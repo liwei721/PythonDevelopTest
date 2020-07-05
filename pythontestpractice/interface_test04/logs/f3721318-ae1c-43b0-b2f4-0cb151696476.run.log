@@ -1,0 +1,2 @@
+2020-07-05 08:17:46.064 | INFO     | httprunner.runner:test_start:448 - Start to run testcase: test joke interface, TestCase ID: f3721318-ae1c-43b0-b2f4-0cb151696476
+2020-07-05 08:17:46.065 | INFO     | httprunner.runner:__run_step:292 - run step begin: 获取内涵段子 >>>>>>

@@ -1,0 +1,92 @@
+2020-07-05 08:22:23.652 | INFO     | httprunner.runner:test_start:448 - Start to run testcase: test joke interface, TestCase ID: 467e84e8-a8ae-4525-82a5-d0f4a55e5c03
+2020-07-05 08:22:23.653 | INFO     | httprunner.runner:__run_step:292 - run step begin: 获取内涵段子 >>>>>>
+2020-07-05 08:22:23.967 | DEBUG    | httprunner.client:request:186 - client IP: 192.168.1.108, Port: 59443
+2020-07-05 08:22:23.967 | DEBUG    | httprunner.client:request:194 - server IP: 47.100.122.205, Port: 443
+2020-07-05 08:22:23.968 | DEBUG    | httprunner.client:log_print:40 - 
+================== request details ==================
+method   : GET
+url      : https://api.apiopen.top/getJoke?page=1&count=2&type=video
+headers  : {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "HRUN-Request-ID": "HRUN-467e84e8-a8ae-4525-82a5-d0f4a55e5c03-543655"
+}
+cookies  : {}
+body     : None
+
+2020-07-05 08:22:23.970 | DEBUG    | httprunner.client:log_print:40 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Cache-Control": "private",
+    "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS, DELETE",
+    "Access-Control-Max-Age": "3600",
+    "Access-Control-Allow-Headers": "Content-Type, x-requested-with, X-Custom-Header, Authorization",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Date": "Sun, 05 Jul 2020 00:22:23 GMT"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : application/json;charset=UTF-8
+body     : {
+    "code": 200,
+    "message": "\u6210\u529f!",
+    "result": [
+        {
+            "sid": "31414625",
+            "text": "\u6211\u5728\u54ea\u513f \u53d1\u751f\u4e86\u4ec0\u4e48\uff1f",
+            "type": "video",
+            "thumbnail": "http://wimg.spriteapp.cn/cutbimage/5edb79c68bd0f.jpg",
+            "video": "http://uvideo.spriteapp.cn/video/2020/0606/5edb79c7f0dd7_wpd.mp4",
+            "images": null,
+            "up": "156",
+            "down": "1",
+            "forward": "0",
+            "comment": "19",
+            "uid": "17904743",
+            "name": "\u77f3\u69b4\u719f\u4e86",
+            "header": "http://wimg.spriteapp.cn/profile/20180903115500567894.jpg",
+            "top_comments_content": "\u8d76\u7d27\u559d\u70b9\uff0c\u7f13\u89e3\u4e00\u4e0b\u5c34\u5c2c",
+            "top_comments_voiceuri": "",
+            "top_comments_uid": "23071065",
+            "top_comments_name": "\u58de\u58dezhe222",
+            "top_comments_header": "http://qzapp.qlogo.cn/qzapp/1106974094/950B23E458894C4F514CAA7471981AC4/100",
+            "passtime": "2020-07-03 18:09:19"
+        },
+        {
+            "sid": "31447346",
+            "text": "\u5b8c\u5168\u60f3\u4e0d\u5230\u7684\u5267\u60c5",
+            "type": "video",
+            "thumbnail": "http://wimg.spriteapp.cn/picture/2020/0623/6b309982-b551-11ea-bfa0-1866daea6abd_wpd.jpg",
+            "video": "http://uvideo.spriteapp.cn/video/2020/0623/6b309982-b551-11ea-bfa0-1866daea6abd_wpd.mp4",
+            "images": null,
+            "up": "562",
+            "down": "8",
+            "forward": "50",
+            "comment": "27",
+            "uid": "22904192",
+            "name": "\u767e\u601d\u7206\u7b11",
+            "header": "http://wimg.spriteapp.cn/profile/20180809175405412650.jpg",
+            "top_comments_content": "\u9648\u5e08\u5085\u628a\u81ea\u5df1\u62cd\u5728\u684c\u4e0b\uff01",
+            "top_comments_voiceuri": "",
+            "top_comments_uid": "21754964",
+            "top_comments_name": "\u7528\u6237YhdxyN",
+            "top_comments_header": "http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJRKSM4Re2SH932QpQsNRXX4IywoHPQtvxXibGLR4H4SMJK3aefJ9Vibretw4R2K4vyiaFDFwOX2jiceA/132",
+            "passtime": "2020-07-03 18:07:29"
+        }
+    ]
+}
+
+2020-07-05 08:22:23.971 | INFO     | httprunner.client:request:217 - status_code: 200, response_time(ms): 311.17 ms, response_length: 0 bytes
+2020-07-05 08:22:23.971 | INFO     | httprunner.response:extract:164 - extract mapping: {'sid': None}
+2020-07-05 08:22:23.972 | INFO     | httprunner.response:validate:230 - assert status_code equal 200(int)	==> pass
+2020-07-05 08:22:23.972 | ERROR    | httprunner.response:validate:247 - assert code equal 200(int)	==> fail
+check_item: code
+check_value: None(NoneType)
+assert_method: equal
+expect_value: 200(int)
