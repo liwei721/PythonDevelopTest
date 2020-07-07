@@ -23,7 +23,7 @@ class TestCaseHandler(object):
         # 判断是目录，还是文件
         if os.path.isfile(self.test_case_path):
             # 是文件则解析
-            pass
+            self.__parse_file()
         else:
             # 是目录，对目录进行遍历获取文件
             pass
@@ -35,7 +35,7 @@ class TestCaseHandler(object):
         """
         if self.test_case_path.endswith(".yml"):
             # 对yaml文件进行处理
-            pass
+            self.__parse_yaml_file()
         elif self.test_case_path.endswith(".json"):
             # 对json文件进行处理
             pass
@@ -54,3 +54,4 @@ class TestCaseHandler(object):
         解析yaml文件
         :return:
         """
+        pass
