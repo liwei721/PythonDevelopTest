@@ -38,14 +38,15 @@ def find_element(driver):
     用于元素定位
     :return:
     """
-    driver.find_element_by_tag_name()
-    driver.find_element_by_class_name()
-    driver.find_element_by_name()
-    driver.find_element_by_css_selector()
     driver.find_element_by_id()
+    driver.find_element_by_name()
+    driver.find_element_by_class_name()
     driver.find_element_by_xpath()
     driver.find_element_by_link_text()
     driver.find_element_by_partial_link_text()
+    driver.find_element_by_css_selector()
+    driver.find_element_by_tag_name()
+    # windows
     driver.find_element_by_windows_uiautomation()
     # ios相关的方法
     driver.find_element_by_ios_class_chain()
