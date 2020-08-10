@@ -11,6 +11,11 @@ def init_drivers():
                     'appPackage': 'tv.danmaku.bili', 'appActivity': 'tv.danmaku.bili.MainActivityV2'}
     # 连接appium server，告诉appium，代码要操作哪个设备上的哪个APP
     driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
+    element = driver.find_element_by_name("登录")
+    # 操作方法
+    element.click()
+    element.send_keys()
+    element.screenshot()
     return driver
 
 
@@ -38,7 +43,8 @@ def find_element(driver):
     用于元素定位
     :return:
     """
-    driver.find_element_by_id()
+    element = driver.find_element_by_id()
+    # 操作
     driver.find_element_by_name()
     driver.find_element_by_class_name()
     driver.find_element_by_xpath()
