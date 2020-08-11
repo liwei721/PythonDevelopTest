@@ -13,8 +13,10 @@ from appium.webdriver.common.multi_action import MultiAction
  手指触摸屏幕    tap
  短按   press（）
  长按   long_press
+ 模拟双击   double_click
  移动手指  move_to
  多点触控  multiAction
+ 等待一段时间操作   wait
 """
 
 
